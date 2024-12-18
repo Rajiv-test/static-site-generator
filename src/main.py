@@ -1,6 +1,11 @@
-from textnode import *
+from textnode import TextNode, TextType
+
 
 def main():
-    boot_dev = TextNode("This is a text node",TextType.BOLD,'https://www.boot.dev')
-    print(boot_dev)
+    node = TextNode("This is a text node", TextType.BOLD, "https://www.boot.dev")
+    print(node)
+
+
 main()
+
+
